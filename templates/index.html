@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Rifki Falah Azima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+       <header>
+                <div class="container">
+                            <h1>Rifki Falah Azima</h1>
+                            <nav>
+                                    <ul>
+                                            <li><a href="#Hero">Home</a><li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                            </nav>
+                </div>
+       </header>
+
+       <section id="Hero">
+                <div class="container">
+                        <h2>Selamat Datang di Portofolio Saya</h2>
+                        <p>Saya Adalah Seorang Mahasiswa Teknik Elektro Universitas Padjadjajaran</p>
+                        
+                </div>
+       </section>
+
+       <section id="Projects">
+                    <div class="container">
+                        <h2>Home</h2>
+                        <div class="Projects">
+                                <img src="{{ url_for('static', filename='images/project1.jpg') }}" alt="Project 1">
+                                <h3>Rifki Falah Azima</h3>
+                                <p>Rifki Falah Azima adalah nama panjang saya, saya lahir di Bandung, 21 Juli 2006. Saya adalah anak pertama dari kedua orangtua, saya tidak memiliki adik maupun kakak, saya biasa disebut orang adalah anak Tunggal.</p>
+                        </div>
+                        <div class="Projects">
+                                <img src="{{ url_for('static', filename='images/project2.jpg') }}" alt="Project 2">
+                                <h3>Himpunan Teknik Elektro Universitas Padjadjajaran</h3>
+                                <p>Saya adalah anggota Himpunan di Teknik Elektro Univeritas Padjadjaran, saat ini saya mengikuti Himpunan Teknik Elektro pada kabinet Akselerasi Daya, saat ini saya menjadi Staff Biro Kewirausahaan.</p>
+
+                </div>
+       </section>
+
+       <section id="about">
+                <div class="container">
+                        <h2>About Me</h2>
+                        <p>Nama Saya Rifki Falah Azima, saat ini saya berumur 18thn. Saya berasal dari Kota Bandung, Jawa Barat. Saya lulusan dari SMAN 1 Kota Bandung, pada tahun 2024. Setelah Lulus saya melanjutkan bidang studi di Universitas Padjadjaran pada tahun 2024 - sekarang, di Universitas Padjadjajaran saya mengambil bidang studi Teknik Elektro.</p>
+                        </p>               
+                </div>
+       </section>
+
+       <section id="contact">
+                <div class="container">
+                        <h2>Contact</h2>
+                        <p>Email:<a href="http:://rifkiazima170@gmail.com">rifkiazima170@gmail.com</a></p>
+                        <p>Phone: 0821-1233-0560</p>
+                </div>
+       </section>
+
+       <footer>
+                <div class="container">
+                        <p>&copy; 2025 Rifki Falah Azima</p>
+                </div>
+
+       </footer>
+        
+</body>
+
+</html>
